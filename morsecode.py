@@ -323,6 +323,8 @@ def main():
             print(decoding_sentence(user_input))
         else:
             print('Wrong Input')
+        
+        user_input = input('Input your message(H - Help, 0 - Exit): ')
     # ==================================
     print("Good Bye")
     print("Morse Code Program Finished!!")
