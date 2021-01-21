@@ -95,7 +95,7 @@ def is_validated_english_sentence(user_input):
     for p in punctuation:
         for i in range(user_input.count(p)):
             user_input = user_input[:user_input.find(p)] + user_input[user_input.find(p)+1:]
-    if not user_input:
+    if not user_input.split():
         result = False
 
     return result
